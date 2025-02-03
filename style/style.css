@@ -1,0 +1,135 @@
+@import url(./font.css`);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+:root {
+  --r400: "Roboto-Regular";
+  --r700: "Roboto-Bold";
+}
+.nav_logo {
+  margin: 50px auto 79px auto;
+  display: flex;
+  justify-content: center;
+}
+.nav_list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.nav_link {
+  font-family: var(--r400);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  color: #8c8a8a;
+  text-decoration: none;
+}
+.photo {
+  margin: 30px auto;
+}
+.info_box {
+  display: flex;
+  gap: 30px;
+}
+.info_left_box {
+  width: 730px;
+  background-color: #f0f0f0;
+  padding: 50px 95px 51px 40px;
+}
+.info_left_title {
+  font-family: var(--r700);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  color: #4581b7;
+}
+.info_left_text {
+  font-family: var(--r400);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #808080;
+  margin-top: 25px;
+  text-align: justify;
+}
+.info_right_box {
+  width: 350px;
+  background-color: #f0f0f0;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 24px;
+}
+.info_right_mini_box {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.info_right_title {
+  font-family: var(--r700);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  color: #4581b7;
+}
+.info_right_text {
+  font-family: var(--r400);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #808080;
+  margin-top: 25px;
+}
+.info_right_tel {
+  font-family: var(--r400);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #808080;
+  text-decoration: none;
+}
+.info_right_link {
+  font-family: var(--r400);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #808080;
+  text-decoration: none;
+}
+.footer_box {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+.footer_mini_box {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  gap: 10px;
+}
+.footer_text {
+  font-family: var(--r400);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #808080;
+}
+.footer_tel {
+  font-family: var(--r700);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 29.3px;
+  color: #808080;
+  text-decoration: none;
+}
