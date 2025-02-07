@@ -15,6 +15,9 @@
   --r400: "Roboto-Regular";
   --r700: "Roboto-Bold";
 }
+body::-webkit-scrollbar{
+  width: 0; 
+}
 .nav_logo {
   margin: 50px auto 79px auto;
   display: flex;
@@ -24,6 +27,7 @@
   list-style: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 30px;
 }
 .nav_link {
