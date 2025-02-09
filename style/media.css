@@ -75,6 +75,9 @@
   }
 }
 @media (max-width: 800px) {
+  .info_box{
+    gap: 20px;
+  }
   .nav_logo img {
     width: 100px;
     height: 130px;
@@ -152,9 +155,12 @@
     font-size: 19px;
   } 
 }
-@media (max-width: 600px){
+@media (max-width: 600px){  
   .nav_logo{
     margin: 25px auto 35px auto;
+  }
+  .nav_link{
+    font-size: 15px;
   }
   .info_box{
     flex-wrap: wrap;
@@ -162,21 +168,26 @@
   }
   .info_left_box{
     max-width: 570px;
-    height: 300px;
     width: 100%;
     padding: 30px 50px 30px 20px;
   }
   .info_left_title{
     font-size: 16px;
   }
+  .info_left_box{
+    padding: 20px 40px 20px 15px;
+  }
+  .info_right_box{
+    padding: 25px 15px 10px 20px;
+  }
   .info_left_text{
     -webkit-line-clamp: 7;
     margin-top: 13px;
     font-size: 14px;
+    margin-top: 8px;
   }
   .info_right_box{
-    max-width: 570px;
-    height: 300px;
+    max-width: 570px; 
     width: 100%;
   }
   .info_right_mini_box{
@@ -187,5 +198,95 @@
   }
   .footer_tel{
     font-size: 18px;
+  }
+}
+@media (max-width: 550px){
+  .info_box{
+    gap: 15px;
+  }
+  .nav_logo{
+    margin: 15px auto 20px auto;
+  }
+  .photo{
+    margin: 15px auto 15px auto;
+  }
+  .footer_box{
+    flex-direction: column;
+    gap: 15px;
+    padding: 8px 20px;  
+  }
+  .footer_box img{
+    width: 180px;
+    height: 80px;
+  }
+  .footer_mini_box{
+    text-align: center;
+  }
+}
+@media (max-width: 400px){
+  .nav_logo{
+    margin: 10px auto 15px auto;
+  }
+  .nav_logo img{
+    width: 80px;
+    height: 100px;
+  }
+  .nav_list{
+    padding: 5px;
+    font-size: 14px;
+  }
+  .info_left_box{
+    padding: 15px 30px 15px 10px;
+  }
+  .info_right_box{
+    padding: 20px 10px 8px 15px;
+  }
+  .info_left_title,
+  .info_right_title{
+    font-size: 15px;
+  }
+  .info_left_text,
+  .info_right_text{
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  .info_right_tel,
+  .info_right_link{
+    font-size: 15px;
+  }
+  .footer_box{
+    gap: 10px;
+    padding: 6px 13px;  
+  }
+  .footer_box img{
+    width: 150px;
+    height: 70px;
+  }
+}
+@media (max-width: 320px){
+  .footer_box{
+    gap: 8px;
+  }
+  .footer_box img{
+    width: 120px;
+    height: 60px;
+  }
+  .footer_mini_box{
+    gap: 5px;
+  }
+  .footer_text{
+    font-size: 12px;
+  }
+  .footer_tel{
+    font-size: 16px;
+  }
+  .info_left_text,
+  .info_right_text{
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .info_left_title,
+  .info_right_title{
+    font-size: 14px;
   }
 }
